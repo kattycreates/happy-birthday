@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://github.com/kattycreates/happy-birthday/blob/main/sky.png?raw=true);
+}
+#picks{
+    text-align:center;
+    font-family:sans-serif;
+  }
+  .top-picks{
+    width:200px;
+    height:200px;
+  }
+  footer{
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  button{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid black;
+    padding: 10px 25px;
+    margin: auto;
+    position:relative;
+    background-size: cover;
+    
+    }
+    #home{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHibUpd582irzcrQlUb7nQ4SSl1Lini26pfA&usqp=CAU);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding:0px;
+        
+    }
+    #home:hover{
+        height: 120px;
+        width: 120px;
+        box-shadow: 0px 5px 30px white ;
+    }
